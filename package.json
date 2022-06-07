@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon source/server.ts",
+    "start": "node ./build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maura Tamayo",
+  "author": "Santiago Perdigon",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
