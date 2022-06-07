@@ -4,8 +4,8 @@
   "description": "Api para consumo de libros",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon source/server.ts",
     "start": "node ./build/index.js",
+    "dev": "nodemon source/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Santiago Perdigon",
